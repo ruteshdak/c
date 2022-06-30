@@ -9,4 +9,4 @@ int main() {
   gross_salary = da+hra+salary;
   printf("gross salary= %f",gross_salary);
   return 0;
-}
+  }
