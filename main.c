@@ -1,10 +1,17 @@
 #include <stdio.h>
 int main(){
-  int l,b,area,perimeter;
-  printf("Enter length and breadth : \n");
-  scanf("%d %d",&l,&b);
-  area = l*b;
-  perimeter = 2*(l+b);
-  printf("Area is %d \n",area);
-  printf("Perimeter is = %d",perimeter);
-}
+  float cp,sp,profit,loss;
+  printf("Enter your cp:\n");
+  scanf("%f",&cp);
+  printf("Enter your sp :\n");
+  scanf("%f",&sp);
+  
+  loss = sp-cp;
+    if (sp>cp){
+      profit = sp-cp;
+      printf("Profit = %f",profit);
+    }
+    else{
+     printf("Loss = %f",loss);
+    }
+  }
